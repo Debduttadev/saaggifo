@@ -27,11 +27,6 @@ Route::get('investor', [HomeController::class, 'investor'])->name('investor');
 Route::get('contact-us', [HomeController::class, 'contactus'])->name('contact-us');
 
 
-
-
-
-
-
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
