@@ -28,23 +28,23 @@
             <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item bg-light rounded">
                     <div class="service-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'service-1.jpg' }}"
-                            class="img-fluid w-100 rounded-top" alt="">
+                        <img src="{{ URL::to('front') . "/img/" . 'sagitiles.jpg' }}" class="img-fluid w-100 rounded"
+                            alt="">
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item bg-light rounded">
                     <div class="service-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'service-1.jpg' }}"
-                            class="img-fluid w-100 rounded-top" alt="">
+                        <img src="{{ URL::to('front') . "/img/" . 'mr hunk.jpg' }}" class="img-fluid w-100 rounded"
+                            alt="">
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item bg-light rounded">
                     <div class="service-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'service-1.jpg' }}"
+                        <img src="{{ URL::to('front') . "/img/" . 'building junction.jpg' }}"
                             class="img-fluid w-100 rounded-top" alt="">
                     </div>
                 </div>

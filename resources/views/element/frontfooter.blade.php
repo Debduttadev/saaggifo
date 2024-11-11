@@ -5,7 +5,7 @@
             <div class="col-md-6 col-lg-6 col-xl-3">
                 <div class="footer-item d-flex flex-column">
                     <div class="footer-item">
-                        <a href="{{ URL::to('/') }}"><img src="{{ URL::to('front') . "/img/" . 'about-2.jpg' }}"
+                        <a href="{{ URL::to('/') }}"><img src="{{ URL::to('front') . "/img/" . 'logo.png' }}"
                                 class="img-fluid w-100 rounded-bottom" alt="Saaggifo"></a>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
         <div class="row g-4 align-items-center">
             <div class="col-md-6 text-center text-md-start mb-md-0">
                 <span class="text-body"><a href="#" class="border-bottom text-primary"><i
-                            class="fas fa-copyright text-light me-2"></i>Saaggifo group of industries</a>, All right
+                            class="fas fa-copyright text-light me-2"></i>Saaggifo group of industries</a>,2024 All right
                     reserved.</span>
             </div>
             <div class="col-md-6 text-center text-md-end text-body">

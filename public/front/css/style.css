@@ -532,8 +532,7 @@
 .service .service-item .service-img {
     position: relative;
     overflow: hidden;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px;
 }
 
 .service .service-item .service-img img {
@@ -551,8 +550,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-radius: 10px !important;
     background: rgba(224, 218, 165, 0.4);
     transition: 0.5s;
 }
@@ -1053,7 +1051,7 @@ h1,
 
 .overlaybg {
     min-height: 100%;
-    background: url(https://picsum.photos/id/1043/800/600);
+    background: url(../img/stats-bg.jpg);
     background-size: cover;
     box-shadow: inset 0 0 0 2000px rgba(150, 149, 150, 0.3);
     background-size: 100% 30%;
@@ -1080,8 +1078,23 @@ h1,
 
 .broucherbg {
     min-height: 100%;
-    background: url(../img/broucherbg.jpg);
+    background: url(../img/boucher-page-banner.jpg);
     background-size: cover;
     background-size: 100% 100%;
     background-repeat: no-repeat;
+}
+
+.logoparent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.logoimage1 {
+
+    position: absolute;
+    width: 16%;
+    top: auto;
+    left: 0%;
+    bottom: 0%;
 }

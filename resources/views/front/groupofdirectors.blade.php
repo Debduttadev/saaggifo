@@ -26,7 +26,7 @@
             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="team-item rounded">
                     <div class="team-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'team-2.jpg' }}" class="img-fluid w-100 rounded-top"
+                        <img src="{{ URL::to('front') . "/img/" . 'team-2.png' }}" class="img-fluid w-100 rounded-top"
                             alt="Image">
                         <div class="team-icon">
                             <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
@@ -52,7 +52,7 @@
             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="team-item rounded">
                     <div class="team-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'team-1.jpg' }}" class="img-fluid w-100 rounded-top"
+                        <img src="{{ URL::to('front') . "/img/" . 'team-1.png' }}" class="img-fluid w-100 rounded-top"
                             alt="Image">
                         <div class="team-icon">
                             <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i

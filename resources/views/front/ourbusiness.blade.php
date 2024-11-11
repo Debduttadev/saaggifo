@@ -18,41 +18,55 @@
 
 <!-- Header End -->
 
-<!-- Services Start -->
-<div class="container-fluid service py-5">
+<!-- Testimonial Start -->
+<div class="container-fluid testimonial bg-light py-5">
     <div class="container py-5">
-        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-            <h1 class="display-4"> Our Brands</h1>
-        </div>
-        <div class="row g-4 justify-content-center text-center">
-            <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item bg-light rounded">
-                    <div class="service-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'service-1.jpg' }}"
-                            class="img-fluid w-100 rounded-top" alt="">
+        <div class="row g-4 align-items-center">
+            <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
+                <div class="h-100 rounded">
+                    <h2 class="text-primary">Our Business</h2>
+                </div>
+            </div>
+            <div class="col-xl-8">
+                <div class="testimonial-carousel featuredproducts owl-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="d-flex">
+                            <img src="{{ URL::to('front') . "/img/" . 'mission images_04.jpg' }}"
+                                class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <div class="my-auto text-end">
+                                <h5>Tiles</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="d-flex">
+                            <img src="{{ URL::to('front') . "/img/" . 'mission images_05.jpg' }}"
+                                class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <div class="my-auto text-end">
+                                <h5>Tiles Adhesive</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="d-flex">
+                            <img src="{{ URL::to('front') . "/img/" . 'mission images_03.jpg' }}"
+                                class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <div class="my-auto text-end">
+                                <h5>Sanitaryware</h5>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item bg-light rounded">
-                    <div class="service-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'service-1.jpg' }}"
-                            class="img-fluid w-100 rounded-top" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="service-item bg-light rounded">
-                    <div class="service-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'service-1.jpg' }}"
-                            class="img-fluid w-100 rounded-top" alt="">
-                    </div>
-                </div>
-            </div>
-
         </div>
     </div>
 </div>
-<!-- Services End -->
+<!-- Testimonial End -->
 
 @endsection

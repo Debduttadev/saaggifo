@@ -20,7 +20,8 @@
                     style="animation-delay: 1.5s;">
                 </p>
                 <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4 fadeInUp animate__animated"
-                    data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;" href="#">TAKE A TOUR
+                    data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;"
+                    href="{{ URL::to('/')}}">TAKE A TOUR
                 </a>
             </div>
         </div>
@@ -31,13 +32,11 @@
         </div>
         <div class="carousel-caption">
             <div class="carousel-caption-inner text-center p-3">
-                <h1 class="display-1 text-capitalize text-white mb-4">The most prestigious Investments company in
-                    worldwide.</h1>
-                <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                <h1 class="display-1 text-capitalize text-white mb-4">The most prestigious company</h1>
+                <p class="mb-5 fs-5">Personalized Interiors That Reflect Your Unique Style.
                 </p>
-                <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
-                <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a>
+                <!-- <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
+                <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a> -->
             </div>
         </div>
     </div>
@@ -47,13 +46,11 @@
         </div>
         <div class="carousel-caption">
             <div class="carousel-caption-inner text-end p-3">
-                <h1 class="display-1 text-capitalize text-white mb-4">The most prestigious Investments company in
-                    worldwide.</h1>
-                <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                <h1 class="display-1 text-capitalize text-white mb-4">Transform Your Space, Elevate Your Lifestyle.</h1>
+                <p class="mb-5 fs-5">Designing Spaces That Tell Your Story.
                 </p>
-                <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
-                <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a>
+                <!-- <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
+                <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a> -->
             </div>
         </div>
     </div>
@@ -154,8 +151,8 @@
             </div>
             <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
                 <div class="about-img">
-                    <img src="{{ URL::to('front') . "/img/" . 'about-2.jpg' }}" class="img-fluid w-100 rounded-bottom"
-                        alt="Image">
+                    <img src="{{ URL::to('front') . "/img/" . 'carousel-2.jpg' }}"
+                        class="img-fluid w-100 rounded-bottom" alt="Image">
                 </div>
             </div>
         </div>
@@ -170,7 +167,7 @@
         <div class="project-carousel  owl-carousel wow fadeInUp" data-wow-delay="0.1s">
             <div class="project-item wow fadeInUp" data-wow-delay="0.1s">
                 <div class="project-img">
-                    <img src="{{ URL::to('front') . "/img/" . 'projects-1.jpg' }}" class="img-fluid w-100 rounded"
+                    <img src="{{ URL::to('front') . "/img/" . 'ourvision.jpg' }}" class="img-fluid w-100 rounded"
                         alt="Image">
                 </div>
                 <div class="project-content bg-light rounded p-4">
@@ -191,7 +188,7 @@
 
             <div class="project-item wow fadeInUp" data-wow-delay="0.3s">
                 <div class="project-img">
-                    <img src="{{ URL::to('front') . "/img/" . 'projects-1.jpg' }}" class="img-fluid w-100 rounded"
+                    <img src="{{ URL::to('front') . "/img/" . 'ourmission.jpg' }}" class="img-fluid w-100 rounded"
                         alt="Image">
                 </div>
                 <div class="project-content bg-light rounded p-4">
@@ -224,12 +221,6 @@
                             class="fas fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
-            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
-                <div class="faq-img RotateMoveRight rounded">
-                    <img src="{{ URL::to('front') . "/img/" . 'projects-1.jpg' }}" class="img-fluid rounded w-75"
-                        alt="Image">
-                </div>
-            </div>
         </div>
     </div>
 </div>
@@ -245,23 +236,23 @@
             <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item bg-light rounded">
                     <div class="service-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'service-1.jpg' }}"
-                            class="img-fluid w-100 rounded-top" alt="">
+                        <img src="{{ URL::to('front') . "/img/" . 'sagitiles.jpg' }}" class="img-fluid w-100 rounded"
+                            alt="">
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item bg-light rounded">
                     <div class="service-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'service-1.jpg' }}"
-                            class="img-fluid w-100 rounded-top" alt="">
+                        <img src="{{ URL::to('front') . "/img/" . 'mr hunk.jpg' }}" class="img-fluid w-100 rounded"
+                            alt="">
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item bg-light rounded">
                     <div class="service-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'service-1.jpg' }}"
+                        <img src="{{ URL::to('front') . "/img/" . 'building junction.jpg' }}"
                             class="img-fluid w-100 rounded-top" alt="">
                     </div>
                 </div>
@@ -283,23 +274,38 @@
                 </div>
             </div>
             <div class="col-xl-8">
-                <div class="testimonial-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-carousel featuredproducts owl-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="d-flex">
-                            <img src="{{ URL::to('front') . "/img/" . 'service-1.jpg' }}"
+                            <img src="{{ URL::to('front') . "/img/" . 'mission images_04.jpg' }}"
                                 class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <div class="my-auto text-end">
+                                <h5>Tiles</h5>
+                            </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="d-flex">
-                            <img src="{{ URL::to('front') . "/img/" . 'service-1.jpg' }}"
+                            <img src="{{ URL::to('front') . "/img/" . 'mission images_05.jpg' }}"
                                 class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <div class="my-auto text-end">
+                                <h5>Tiles Adhesive</h5>
+                            </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="d-flex">
-                            <img src="{{ URL::to('front') . "/img/" . 'service-1.jpg' }}"
+                            <img src="{{ URL::to('front') . "/img/" . 'mission images_03.jpg' }}"
                                 class="img-fluid w-100 rounded-top" alt="">
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <div class="my-auto text-end">
+                                <h5>Sanitaryware</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -319,7 +325,7 @@
             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="team-item rounded">
                     <div class="team-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'team-2.jpg' }}" class="img-fluid w-100 rounded-top"
+                        <img src="{{ URL::to('front') . "/img/" . 'team-2.png' }}" class="img-fluid w-100 rounded-top"
                             alt="Image">
                         <div class="team-icon">
                             <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
@@ -345,7 +351,7 @@
             <div class="col-sm-6 col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="team-item rounded">
                     <div class="team-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'team-1.jpg' }}" class="img-fluid w-100 rounded-top"
+                        <img src="{{ URL::to('front') . "/img/" . 'team-1.png' }}" class="img-fluid w-100 rounded-top"
                             alt="Image">
                         <div class="team-icon">
                             <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
@@ -375,7 +381,7 @@
 
 
 <!-- Testimonial Start -->
-<div class="container-fluid testimonial bg-light py-5">
+<div class="container-fluid testimonial bg-light pb-5">
     <div class="container py-5">
         <div class="row g-4 align-items-center">
             <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
@@ -389,63 +395,48 @@
                     <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="d-flex">
                             <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                            <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos
-                                impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae
-                                doloribus iure,
+                            <p class="mt-4">Overall, I had a fantastic experience here. I found exactly
+                                what I was looking for and felt confident in my choices thanks to the helpful team. I
+                                would definitely recommend this shop to anyone looking for quality tiles and exceptional
+                                service.
                             </p>
                         </div>
                         <div class="d-flex justify-content-end">
                             <div class="my-auto text-end">
-                                <h5>Person Name</h5>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="bg-white rounded-circle ms-3">
-                                <img src="{{ URL::to('front') . "/img/" . 'testimonial-1.jpg' }}"
-                                    class="rounded-circle p-2"
-                                    style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);"
-                                    alt="">
+                                <h5>Prity Mondal</h5>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="d-flex">
                             <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                            <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos
-                                impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae
-                                doloribus iure,
+                            <p class="mt-4">I recently visited Building Juction, while looking for new tiles for my
+                                kitchen renovation, and I was thoroughly impressed with the experience. The shop had a
+                                wide selection of high-quality tiles, ranging from modern ceramics to elegant natural
+                                stone, so there was something to fit every style and budget. The showroom was
+                                well-organized, with clear labels and great lighting that made it easy to assess the
+                                color and texture of each tile.
                             </p>
                         </div>
                         <div class="d-flex justify-content-end">
                             <div class="my-auto text-end">
-                                <h5>Person Name</h5>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="bg-white rounded-circle ms-3">
-                                <img src="{{ URL::to('front') . "/img/" . 'testimonial-2.jpg' }}"
-                                    class="rounded-circle p-2"
-                                    style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);"
-                                    alt="">
+                                <h5>Sougata Bose</h5>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-white rounded p-4 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="d-flex">
                             <div><i class="fas fa-quote-left fa-3x text-dark me-3"></i></div>
-                            <p class="mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eos
-                                impedit eveniet dolorem culpa ullam incidunt vero quo recusandae nemo? Molestiae
-                                doloribus iure,
+                            <p class="mt-4">If you're looking for variety this is the place to go. The
+                                staff was very helpful in explaining the pros and cons of each material, making it
+                                easier for me to make an informed decision. I ended up choosing a beautiful set of
+                                patterned tiles for my entryway, and I couldn’t be happier with the result. Highly
+                                recommend!
                             </p>
                         </div>
                         <div class="d-flex justify-content-end">
                             <div class="my-auto text-end">
-                                <h5>Person Name</h5>
-                                <p class="mb-0">Profession</p>
-                            </div>
-                            <div class="bg-white rounded-circle ms-3">
-                                <img src="{{ URL::to('front') . "/img/" . 'testimonial-3.jpg' }}"
-                                    class="rounded-circle p-2"
-                                    style="width: 80px; height: 80px; border: 1px solid; border-color: var(--bs-primary);"
-                                    alt="">
+                                <h5>Sousthab Hazari</h5>
                             </div>
                         </div>
                     </div>

@@ -20,9 +20,16 @@
     $(window).scroll(function () {
         if ($(window).width() > 992) {
             if ($(this).scrollTop() > 45) {
-                $('.sticky-top .container').addClass('shadow-sm').css('max-width', '100%');
+                $('.sticky-top .container').addClass('shadow-sm').css('max-width', '90%');
+                $('.sticky-top .container').addClass('shadow-sm').css('height', '90px');
+                $('.logoimage1').css('width', '12%');
+                $('.logoimage1').css('bottom', '-20%');
+
             } else {
                 $('.sticky-top .container').removeClass('shadow-sm').css('max-width', $('.topbar .container').width());
+                $('.logoimage1').css('width', '16%');
+                $('.logoimage1').css('bottom', '0%');
+
             }
         } else {
             $('.sticky-top .container').addClass('shadow-sm').css('max-width', '100%');

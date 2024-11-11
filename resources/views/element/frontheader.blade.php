@@ -13,8 +13,9 @@
     <div class="container-fluid topbar px-0 d-none d-lg-block">
         <div class="container px-0">
             <div class="row gx-0 align-items-center" style="height: 45px;">
-                <div class="col-lg-10 text-center text-lg-start mb-lg-0">
-                    <div class="d-flex flex-wrap">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap" style="font-size: 14px;">
                         <a href="tel:+918240993380" class="text-muted me-4"><i
                                 class="fas fa-phone-alt text-primary me-2"></i><span class="text-primary">Contact us
                                 :</span>+91
@@ -50,10 +51,9 @@
         <div class="position-absolute bg-dark" style="left: 0; top: 0; width: 100%; height: 100%;">
         </div>
         <div class="container px-0">
-            <nav class="navbar navbar-expand-lg navbar-dark bg_black py-3 px-4">
+            <nav class="navbar navbar-expand-lg navbar-dark bg_black py-3 px-4 logoparent">
                 <a href="{{ URL::to('/') }}" class="navbar-brand p-0">
-                    <h1 class="text-primary m-0"><i class="fas fa-donate me-3"></i>Saaggifo</h1>
-                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                    <img class="logoimage1" src="{{ URL::to('front') . '/' . "img/logo.png"}}" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
