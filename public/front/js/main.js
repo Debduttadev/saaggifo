@@ -11,10 +11,8 @@
     };
     spinner(0);
 
-
     // Initiate the wowjs
     new WOW().init();
-
 
     // Sticky Navbar
     $(window).scroll(function () {
