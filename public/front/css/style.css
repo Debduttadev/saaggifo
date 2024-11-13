@@ -1098,3 +1098,7 @@ h1,
     left: 0%;
     bottom: 0%;
 }
+
+.whowerimg {
+    margin-top: -40px !important;
+}

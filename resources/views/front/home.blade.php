@@ -176,10 +176,9 @@
                 </div>
 
             </div>
-            <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
-                <div class="about-img">
-                    <img src="{{ URL::to('front') . "/img/" . 'carousel-2.jpg' }}"
-                        class="img-fluid w-100 rounded-bottom" alt="Image">
+            <div class="col-lg-6 col-xl-5 wow fadeInLeft whowerimg" data-wow-delay="0.1s">
+                <div class="about-img ">
+                    <img src="{{ URL::to('front') . "/img/" . 'carousel-2.jpg' }}" class="img-fluid w-100 " alt="Image">
                 </div>
             </div>
         </div>
