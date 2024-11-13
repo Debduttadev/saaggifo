@@ -66,8 +66,6 @@
                             <div class="dropdown-menu m-0">
                                 <a href="{{ URL::to('aboutus') }}" class="dropdown-item">About Us</a>
                                 <a href="{{ URL::to('ourstory') }}" class="dropdown-item">Our Story</a>
-                                <a href="{{ URL::to('group-of-directors') }}" class="dropdown-item">Group of
-                                    Directors</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">

@@ -24,6 +24,7 @@
                 $('.logoimage1').css('bottom', '-20%');
 
             } else {
+
                 $('.sticky-top .container').removeClass('shadow-sm').css('max-width', $('.topbar .container').width());
                 $('.logoimage1').css('width', '16%');
                 $('.logoimage1').css('bottom', '0%');

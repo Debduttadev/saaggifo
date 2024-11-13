@@ -12,17 +12,16 @@
             <img src="{{ URL::to('front') . "/img/" . 'carousel-1.jpg' }}" class="img-fluid w-100" alt="Image">
         </div>
         <div class="carousel-caption">
-            <div class="carousel-caption-inner text-center p-3">
+            <div class="carousel-caption-inner text-start p-3">
+                <a class="btn btn-primary  py-3 px-5 mb-4 me-4 fadeInUp animate__animated" data-animation="fadeInUp"
+                    data-delay="1.5s" style="animation-delay: 1.7s;" href="">Saggitect
+                </a>
                 <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
-                    data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">CARING FOR LIFE
-                    GLOBALLY </h1>
+                    data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">"WE'RE CHANGING THE WORLD
+                    WITH TECHNOLOGY"-Bill Gates</h1>
                 <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
                     style="animation-delay: 1.5s;">
                 </p>
-                <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4 fadeInUp animate__animated"
-                    data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.7s;"
-                    href="{{ URL::to('/')}}">TAKE A TOUR
-                </a>
             </div>
         </div>
     </div>
@@ -31,12 +30,16 @@
             <img src="{{ URL::to('front') . "/img/" . 'carousel-2.jpg' }}" class="img-fluid w-100" alt="Image">
         </div>
         <div class="carousel-caption">
-            <div class="carousel-caption-inner text-center p-3">
-                <h1 class="display-1 text-capitalize text-white mb-4">The most prestigious company</h1>
-                <p class="mb-5 fs-5">Personalized Interiors That Reflect Your Unique Style.
+            <div class="carousel-caption-inner text-start p-3">
+                <a class="btn btn-primary  py-3 px-5 mb-4 me-4 fadeInUp animate__animated" data-animation="fadeInUp"
+                    data-delay="1.5s" style="animation-delay: 1.7s;" href="">Building Juction
+                </a>
+                <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+                    data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">ONE SOLUTION FOR EVERY
+                    HOME</h1>
+                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
+                    style="animation-delay: 1.5s;">
                 </p>
-                <!-- <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
-                <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a> -->
             </div>
         </div>
     </div>
@@ -45,15 +48,38 @@
             <img src="{{ URL::to('front') . "/img/" . 'carousel-3.jpg' }}" class="img-fluid w-100" alt="Image">
         </div>
         <div class="carousel-caption">
-            <div class="carousel-caption-inner text-end p-3">
-                <h1 class="display-1 text-capitalize text-white mb-4">Transform Your Space, Elevate Your Lifestyle.</h1>
-                <p class="mb-5 fs-5">Designing Spaces That Tell Your Story.
+            <div class="carousel-caption-inner text-start p-3">
+                <a class="btn btn-primary  py-3 px-5 mb-4 me-4 fadeInUp animate__animated" data-animation="fadeInUp"
+                    data-delay="1.5s" style="animation-delay: 1.7s;" href=""> Saggitiles
+                </a>
+                <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+                    data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">QUALITY IS OUR STRONG
+                    FOUNDATION</h1>
+                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
+                    style="animation-delay: 1.5s;">
                 </p>
-                <!-- <a class="btn btn-primary rounded-pill py-3 px-5 mb-4 me-4" href="#">Apply Now</a>
-                <a class="btn btn-dark rounded-pill py-3 px-5 mb-4" href="#">Read More</a> -->
             </div>
         </div>
     </div>
+    <div class="header-carousel-item">
+        <div class="header-carousel-item-img-3">
+            <img src="{{ URL::to('front') . "/img/" . 'carousel-4.jpg' }}" class="img-fluid w-100" alt="Image">
+        </div>
+        <div class="carousel-caption">
+            <div class="carousel-caption-inner text-start p-3">
+                <a class="btn btn-primary  py-3 px-5 mb-4 me-4 fadeInUp animate__animated" data-animation="fadeInUp"
+                    data-delay="1.5s" style="animation-delay: 1.7s;" href=""> Sagware
+                </a>
+                <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
+                    data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">QUALITY IS OUR CORE
+                    VALUE</h1>
+                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
+                    style="animation-delay: 1.5s;">
+                </p>
+            </div>
+        </div>
+    </div>
+
 </div>
 <!-- Carousel End -->
 
@@ -143,7 +169,8 @@
                 </p>
 
                 <div class="row g-4 justify-content-between mb-5">
-                    <div class="col-xl-5"><a href="#" class="btn btn-primary rounded-pill py-3 px-5">Discover
+                    <div class="col-xl-5"><a href="{{ URL::to('aboutus') }}"
+                            class="btn btn-primary rounded-pill py-3 px-5">Discover
                             More <i class="fa fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -180,7 +207,8 @@
                             the respective fields of our operation. Our core values and fundamental beliefs define our
                             vision to help people distinguish between ethical and unethical practices.</p>
                         <div class="pt-4">
-                            <a class="btn btn-light rounded-pill py-3 px-5" href="#">Read More</a>
+                            <a class="btn btn-light rounded-pill py-3 px-5" href="{{ URL::to('ourstory') }}">Read
+                                More</a>
                         </div>
                     </div>
                 </div>
@@ -198,7 +226,8 @@
                             presence through its uncompromising zeal and unparallel commitment of providing top-notch
                             product, services and solutions in the near future.</p>
                         <div class="pt-4">
-                            <a class="btn btn-light rounded-pill py-3 px-5" href="#">Read More</a>
+                            <a class="btn btn-light rounded-pill py-3 px-5" href="{{ URL::to('ourstory') }}">Read
+                                More</a>
                         </div>
                     </div>
                 </div>
@@ -316,7 +345,7 @@
 <!-- Testimonial End -->
 
 <!-- Team Start -->
-<div class="container-fluid team pb-5">
+<!-- <div class="container-fluid team pb-5">
     <div class="container pb-5">
         <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
             <h1 class="display-4">Group of Directors</h1>
@@ -376,7 +405,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Team End -->
 
 

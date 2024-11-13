@@ -37,8 +37,7 @@
                 </p>
 
                 <div class="row g-4 justify-content-between mb-5">
-                    <div class="col-xl-5"><a href="#" class="btn btn-primary rounded-pill py-3 px-5"> Discover
-                            More <i class="fa fa-arrow-right"></i></a>
+                    <div class="col-xl-5">
                     </div>
                 </div>
 
