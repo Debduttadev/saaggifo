@@ -31,13 +31,13 @@
                 <div class="col-lg-2 text-center text-lg-end">
                     <div class="d-flex align-items-center justify-content-end">
                         <a href="https://www.facebook.com/p/Saaggifo-Infrastructure-Pvt-Ltd-100067055325308/?_rdr"
-                            class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i
+                            target="blank" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i
                                 class="fab fa-facebook-f text-white"></i></a>
                         <!-- <a href="#" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i
                                 class="fab fa-twitter text-white"></i></a> -->
                         <!-- <a href="#" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i
                                 class="fab fa-instagram text-white"></i></a> -->
-                        <a href="https://in.linkedin.com/in/saaggifo-group"
+                        <a href="https://in.linkedin.com/in/saaggifo-group" target="blank"
                             class="btn btn-primary btn-square rounded-circle nav-fill me-0"><i
                                 class="fab fa-linkedin-in text-white"></i></a>
                     </div>

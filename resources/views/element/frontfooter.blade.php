@@ -46,10 +46,10 @@
                         </div>
                         <div class="d-flex align-items-center">
                             <a class="btn btn-light btn-md-square me-2"
-                                href="https://www.facebook.com/p/Saaggifo-Infrastructure-Pvt-Ltd-100067055325308/?_rdr"><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-light btn-md-square me-0"
-                                href="https://in.linkedin.com/in/saaggifo-group"><i class="fab fa-linkedin-in"></i></a>
+                                href="https://www.facebook.com/p/Saaggifo-Infrastructure-Pvt-Ltd-100067055325308/?_rdr"
+                                target="blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-light btn-md-square me-0" href="https://in.linkedin.com/in/saaggifo-group"
+                                target="blank"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                 </div>
