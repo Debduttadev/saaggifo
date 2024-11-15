@@ -15,8 +15,7 @@
                     <a class="text-white">Who We Are</a>
                     <a href="{{ URL::to('aboutus') }}"><i class="fas fa-angle-right me-2"></i>About Us</a>
                     <a href="{{ URL::to('ourstory') }}"><i class="fas fa-angle-right me-2"></i>Our Story</a>
-                    <a href="{{ URL::to('group-of-directors') }}"><i class="fas fa-angle-right me-2"></i>Group of
-                        Directors</a>
+
 
                     <a class="text-white">What We Do</a>
                     <a href="{{ URL::to('our-business') }}"><i class="fas fa-angle-right me-2"></i>Our Business</a>
@@ -42,7 +41,8 @@
                                 placeholder="Enter your email">
                             <button type="button"
                                 class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2"><i
-                                    class="fa fa-paper-plane"></i></button>
+                                    class="fa fa-paper-plane"></i>
+                            </button>
                         </div>
                         <div class="d-flex align-items-center">
                             <a class="btn btn-light btn-md-square me-2"

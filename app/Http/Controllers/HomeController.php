@@ -86,8 +86,8 @@ class HomeController extends Controller
      */
     public function generatePDF()
     {
+        dd("fsdfsd");
         $path = public_path('front/doc/brouchure.pdf');
-
         $fileName = 'Sagitiles Digital catalog' . '.pdf';
         return response()->download($path, $fileName);
     }
