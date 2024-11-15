@@ -38,6 +38,6 @@ Route::middleware('auth')->group(function () {
 });
 
 //pdf download
-Route::get('downloadpdf', [HomeController::class, 'generatePDF'])->name('downloadpdf');
+Route::get('downloadpdf', [HomeController::class, 'downloadpdf'])->name('downloadpdf');
 
 require __DIR__ . '/auth.php';
