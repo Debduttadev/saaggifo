@@ -246,7 +246,7 @@
                     <h1 class="text-primary">EXPERIENCE THE</h1>
                     <h1 class="display-4">LUXURY</h1>
                     <a class="faq-btn btn btn-primary rounded-pill text-white py-3 px-5"
-                        href="{{ URL::to('generate-pdf') }}">DOWNLOAD BROUCHURE <i
+                        href="{{ URL::to('downloadpdf') }}">DOWNLOAD BROUCHURE <i
                             class="fas fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
