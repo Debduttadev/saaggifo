@@ -81,9 +81,16 @@ class HomeController extends Controller
     }
 
 
+    /**
+     * Show the form for editing the specified resource.
+     */
+    public function generatePDF()
+    {
+        $path = public_path('front/doc/brouchure.pdf');
 
-
-
+        $fileName = 'Sagitiles Digital catalog' . '.pdf';
+        return response()->download($path, $fileName);
+    }
 
     /**
      * Show the form for creating a new resource.

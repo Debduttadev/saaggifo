@@ -37,4 +37,6 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::get('generate-pdf', [HomeController::class, 'generatePDF']);
+
 require __DIR__ . '/auth.php';
