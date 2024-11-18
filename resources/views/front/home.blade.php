@@ -199,12 +199,13 @@
                 <div class="project-content bg-light rounded p-4">
                     <div class="project-content-inner">
                         <p class="text-dark fs-5 mb-3">Our Vision</p>
-                        <p class="visionheight">'To serve' is the foremost priority of SAAGGIFO across all its business
-                            domains. We strictly adhere to the policy of generating eco-friendly and bio-degradable
-                            products for the better health of the planet and its populace. We envisage creating newer
-                            opportunities to extend our support to the young and upcoming generation of entrepreneurs in
-                            the respective fields of our operation. Our core values and fundamental beliefs define our
-                            vision to help people distinguish between ethical and unethical practices.</p>
+                        <p class="visionheight">
+                            @php
+                                $ourvision = "'To serve' is the foremost priority of SAAGGIFO across all its business domains. We strictly adhere to the policy of generating eco-friendly and bio-degradable products for the better health of the planet and its populace. We envisage creating newer opportunities to extend our support to the young and upcoming generation of entrepreneurs in the respective fields of our operation. Our core values and fundamental beliefs define our vision to help people distinguish between ethical and unethical practices.";
+                                echo substr($ourvision, 0, 180) . "...";
+                            @endphp
+                            <br>
+                        </p>
                         <div class="pt-4">
                             <a class="btn btn-light rounded-pill py-3 px-5" href="{{ URL::to('ourstory') }}">Read
                                 More</a>
@@ -221,9 +222,12 @@
                 <div class="project-content bg-light rounded p-4">
                     <div class="project-content-inner">
                         <p class="text-dark fs-5 mb-3">Our Mission</p>
-                        <p class="visionheight">The SAAGGIFO group of companies aims to achieve global recognition and
-                            presence through its uncompromising zeal and unparallel commitment of providing top-notch
-                            product, services and solutions in the near future.</p>
+                        <p class="visionheight">
+                            @php
+                                $ourmission = "The SAAGGIFO group of companies aims to achieve global recognition and presence through its uncompromising zeal and unparallel commitment of providing top-notch product, services and solutions in the near future.";
+                                echo substr($ourmission, 0, 180) . "...";
+                            @endphp
+                        </p>
                         <div class="pt-4">
                             <a class="btn btn-light rounded-pill py-3 px-5" href="{{ URL::to('ourstory') }}">Read
                                 More</a>
@@ -432,7 +436,7 @@
                         </div>
                         <div class="d-flex justify-content-end">
                             <div class="my-auto text-end">
-                                <h5>Prity Mondal</h5>
+                                <h5>Sourav Mondal</h5>
                             </div>
                         </div>
                     </div>
@@ -449,7 +453,7 @@
                         </div>
                         <div class="d-flex justify-content-end">
                             <div class="my-auto text-end">
-                                <h5>Sougata Bose</h5>
+                                <h5>Arpita Bose</h5>
                             </div>
                         </div>
                     </div>
@@ -465,7 +469,7 @@
                         </div>
                         <div class="d-flex justify-content-end">
                             <div class="my-auto text-end">
-                                <h5>Sousthab Hazari</h5>
+                                <h5>Pratul Hazari</h5>
                             </div>
                         </div>
                     </div>

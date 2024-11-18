@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>saaggifo</title>
-    <link rel="icon" type="image/x-icon" href="{{ URL::to('admin/img/llogoicon-01-01.png') }}" />
+    <link rel="icon" type="image/x-icon" href="{{ URL::to('front/img/logoold.png') }}" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
