@@ -62,7 +62,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="{{ URL::to('/') }}" class="nav-item nav-link active">Home</a>
+                        <a href="{{ URL::to('/') }}" class="nav-item nav-link ">Home</a>
                         <div class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Who We Are</a>
                             <div class="dropdown-menu m-0">
@@ -73,8 +73,11 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">What We Do</a>
                             <div class="dropdown-menu m-0">
-                                <a href="{{ URL::to('our-business') }}" class="dropdown-item">Our Business</a>
-                                <a href="{{ URL::to('our-companies') }}" class="dropdown-item">Our Companies</a>
+                                <a href="{{ URL::to('saggitech') }}" class="dropdown-item">Saggitech</a>
+                                <a href="{{ URL::to('debdutta-digital') }}" class="dropdown-item">Debdutta Digital
+                                </a>
+                                <a href="{{ URL::to('news-prime-now') }}" class="dropdown-item">News prime now</a>
+                                <a href="{{ URL::to('building-junction') }}" class="dropdown-item">Building Junction</a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
@@ -87,8 +90,8 @@
                                     Environment</a>
                             </div>
                         </div>
-                        <a href="{{ URL::to('career') }}" class="nav-item nav-link">Career</a>
-                        <a href="{{ URL::to('investor') }}" class="nav-item nav-link">Investors</a>
+                        <!-- <a href="{{ URL::to('career') }}" class="nav-item nav-link">Career</a>
+                        <a href="{{ URL::to('investor') }}" class="nav-item nav-link">Investors</a> -->
                         <a href="{{ URL::to('contact-us') }}" class="nav-item nav-link">Contact
                             us</a>
                     </div>

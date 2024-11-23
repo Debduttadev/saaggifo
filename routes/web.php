@@ -24,7 +24,16 @@ Route::get('career', [HomeController::class, 'career'])->name('career');
 
 Route::get('investor', [HomeController::class, 'investor'])->name('investor');
 
+Route::get('saggitech', [HomeController::class, 'saggitech'])->name('saggitech');
+
+Route::get('debdutta-digital', [HomeController::class, 'debduttadigital'])->name('debdutta-digital');
+
+Route::get('news-prime-now', [HomeController::class, 'newsprimenow'])->name('news-prime-now');
+
+Route::get('building-junction', [HomeController::class, 'buildingjunction'])->name('building-junction');
+
 Route::get('contact-us', [HomeController::class, 'contactus'])->name('contact-us');
+
 
 
 Route::get('/dashboard', function () {

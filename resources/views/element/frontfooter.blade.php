@@ -18,16 +18,19 @@
 
 
                     <a class="text-white">What We Do</a>
-                    <a href="{{ URL::to('our-business') }}"><i class="fas fa-angle-right me-2"></i>Our Business</a>
-                    <a href="{{ URL::to('our-companies') }}"><i class="fas fa-angle-right me-2"></i>Our Companies</a>
-
+                    <a href="{{ URL::to('saggitech') }}"><i class="fas fa-angle-right me-2"></i>Saggitech</a>
+                    <a href="{{ URL::to('debdutta-digital') }}"><i class="fas fa-angle-right me-2"></i>Debdutta Digital
+                    </a>
+                    <a href="{{ URL::to('news-prime-now') }}"><i class="fas fa-angle-right me-2"></i>News prime now</a>
+                    <a href="{{ URL::to('building-junction') }}"><i class="fas fa-angle-right me-2"></i>Building
+                        Junction</a>
                     <a class="text-white">Sustainability</a>
                     <a href="{{ URL::to('corporate-sustainability') }}"><i class="fas fa-angle-right me-2"></i>Corporate
                         Sustainability</a>
                     <a href="{{ URL::to('health-safety-and-environment') }}"><i
                             class="fas fa-angle-right me-2"></i>Health Safety & Environment</a>
-                    <a href="{{ URL::to('career') }}" class="text-white">Career</a>
-                    <a href="{{ URL::to('investor') }}" class="text-white">Investors</a>
+                    <!-- <a href="{{ URL::to('career') }}" class="text-white">Career</a>
+                    <a href="{{ URL::to('investor') }}" class="text-white">Investors</a> -->
                     <a href="{{ URL::to('contact-us') }}" class="text-white">Contact us</a>
                 </div>
             </div>

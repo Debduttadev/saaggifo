@@ -80,6 +80,30 @@ class HomeController extends Controller
         return view('front.contactus');
     }
 
+    public function saggitech()
+    {
+        //dd('this is home');
+        return view('front.saggitech');
+    }
+
+    public function debduttadigital()
+    {
+        //dd('this is home');
+        return view('front.debdutta-digital');
+    }
+
+    public function newsprimenow()
+    {
+        //dd('this is home');
+        return view('front.news-prime-now');
+    }
+
+    public function buildingjunction()
+    {
+        //dd('this is home');
+        return view('front.building-junction');
+    }
+
 
     /**
      * Show the form for editing the specified resource.

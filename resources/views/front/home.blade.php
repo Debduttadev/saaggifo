@@ -43,43 +43,42 @@
             </div>
         </div>
     </div>
-    <div class="header-carousel-item">
-        <div class="header-carousel-item-img-3">
-            <img src="{{ URL::to('front') . "/img/" . 'carousel-3.jpg' }}" class="img-fluid w-100" alt="Image">
+    <div class="header-carousel-item mx-auto">
+        <div class="header-carousel-item-img-2">
+            <img src="{{ URL::to('front') . "/img/" . 'carousel-2.jpg' }}" class="img-fluid w-100" alt="Image">
         </div>
         <div class="carousel-caption">
             <div class="carousel-caption-inner text-start p-3">
                 <a class="btn btn-primary  py-3 px-5 mb-4 me-4 fadeInUp animate__animated" data-animation="fadeInUp"
-                    data-delay="1.5s" style="animation-delay: 1.7s;" href=""> Saggitiles
+                    data-delay="1.5s" style="animation-delay: 1.7s;" href="">Building Juction
                 </a>
                 <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
-                    data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">QUALITY IS OUR STRONG
-                    FOUNDATION</h1>
+                    data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">ONE SOLUTION FOR EVERY
+                    HOME</h1>
                 <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
                     style="animation-delay: 1.5s;">
                 </p>
             </div>
         </div>
     </div>
-    <div class="header-carousel-item">
-        <div class="header-carousel-item-img-3">
-            <img src="{{ URL::to('front') . "/img/" . 'carousel-4.jpg' }}" class="img-fluid w-100" alt="Image">
+    <div class="header-carousel-item mx-auto">
+        <div class="header-carousel-item-img-2">
+            <img src="{{ URL::to('front') . "/img/" . 'carousel-2.jpg' }}" class="img-fluid w-100" alt="Image">
         </div>
         <div class="carousel-caption">
             <div class="carousel-caption-inner text-start p-3">
                 <a class="btn btn-primary  py-3 px-5 mb-4 me-4 fadeInUp animate__animated" data-animation="fadeInUp"
-                    data-delay="1.5s" style="animation-delay: 1.7s;" href=""> Sagware
+                    data-delay="1.5s" style="animation-delay: 1.7s;" href="">Building Juction
                 </a>
                 <h1 class="display-1 text-capitalize text-white mb-4 fadeInUp animate__animated"
-                    data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">QUALITY IS OUR CORE
-                    VALUE</h1>
+                    data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">ONE SOLUTION FOR EVERY
+                    HOME</h1>
                 <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s"
                     style="animation-delay: 1.5s;">
                 </p>
             </div>
         </div>
     </div>
-
 </div>
 <!-- Carousel End -->
 
@@ -156,16 +155,19 @@
         <div class="row g-5 align-items-center">
             <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
                 <h3><span class="text-dark">WHO WE </span><span class="text-primary">ARE</span></h3>
-                <p class="text ps-4 mb-4">The SAAGGIFO GROUP is committed to enhance the standard of experiencing your
-                    journey of life through their quality products, services and solutions in various segments. We are
-                    here to provide high level of efficient professional support in fields like media and entertainment,
-                    chemical solutions and pharmaceutical drugs, travel and hospitality, interiors and buildings and
-                    technological services and solutions.
-                    SAAGGIFO boasts of a group of highly skilled and passionate professionals who are eager and
-                    enthusiastic to set new goals in client satisfaction and achieve excellence with panache. The group
-                    conducts all of its business activities within the stringent parameters of sustainable business
-                    practices and hence is attuned to GENERATE and not simply EARN revenues at the cost of the society,
-                    people and the planet at large
+                <p class="text ps-4 mb-4">Saaggifo Group is a dynamic, multi-faceted company that specializes in
+                    technology, design, and media services to help businesses and individuals thrive in the digital age.
+                    Their core offerings include:
+
+                    Software Development: Custom mobile apps, websites, SEO strategies, and server solutions.
+                    Social Media Infrastructure & Content: Management of successful digital platforms and expert
+                    guidance for building, growing, and managing social media presence.
+                    News & Content: A news channel delivering timely content, along with strategies to help
+                    content creators expand their reach.
+                    Interior Design: High-quality materials and expert design services for retail space design.
+
+                    Saaggifo Group combines innovation, creativity, and digital excellence to shape the future across
+                    various industries...
                 </p>
 
                 <div class="row g-4 justify-content-between mb-5">
@@ -201,7 +203,13 @@
                         <p class="text-dark fs-5 mb-3">Our Vision</p>
                         <p class="visionheight">
                             @php
-                                $ourvision = "'To serve' is the foremost priority of SAAGGIFO across all its business domains. We strictly adhere to the policy of generating eco-friendly and bio-degradable products for the better health of the planet and its populace. We envisage creating newer opportunities to extend our support to the young and upcoming generation of entrepreneurs in the respective fields of our operation. Our core values and fundamental beliefs define our vision to help people distinguish between ethical and unethical practices.";
+                                $ourvision = "Saaggifo Group's vision is to empower businesses, individuals, and communities through digital innovation, creative design, and media influence. They aim to integrate technology, design, and content to drive growth, connectivity, and success.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Key elements of their vision include:
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                •	Technology: Enhancing digital presence and operational excellence through app development, website creation, SEO, and server guidance.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                •	Media: Connecting people through their own digital platforms and providing expert guidance to help others grow their social media presence.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                •	News & Content: Offering engaging and informative content, along with strategic insights to help content creators expand their reach.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                •	Design: Transforming spaces with high-quality materials focused on beauty, durability, functionality, and sustainability for effective interior design.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Saaggifo Group strives to lead with innovation, creativity, and expertise, shaping a future where technology and design create meaningful experiences.";
                                 echo substr($ourvision, 0, 180) . "...";
                             @endphp
                             <br>
@@ -224,7 +232,14 @@
                         <p class="text-dark fs-5 mb-3">Our Mission</p>
                         <p class="visionheight">
                             @php
-                                $ourmission = "The SAAGGIFO group of companies aims to achieve global recognition and presence through its uncompromising zeal and unparallel commitment of providing top-notch product, services and solutions in the near future.";
+                                $ourmission = "Saaggifo Group’s mission is to provide innovative, high-quality solutions to help clients succeed in the evolving digital and physical world. They focus on delivering exceptional services in technology, design, and media, with an emphasis on enhancing performance, creativity, and engagement.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Key elements include:
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                •	Technology: Empowering businesses through custom app development, responsive websites, SEO services, and reliable server support for operational efficiency and online success.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                •	Digital Media: Operating their own YouTube and Facebook channels and guiding others to build, grow, and manage their social media presence for greater engagement.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                •	News Content: Offering real-time, informative content through their news channel, while supporting content creators with tools and strategies to expand their reach.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                •	Interior Design: Specializing in sourcing high-quality materials that combine aesthetics, functionality, and sustainability to create exceptional spaces.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Saaggifo Group is committed to continuous innovation, collaboration, and creating solutions that inspire growth, creativity, and long-term success.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ";
                                 echo substr($ourmission, 0, 180) . "...";
                             @endphp
                         </p>
@@ -241,23 +256,7 @@
 </div>
 <!-- Project End -->
 
-<!-- FAQ Start -->
-<div class="container-fluid faq py-5 broucherbg">
-    <div class="container py-5">
-        <div class="row g-5 align-items-center">
-            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
-                <div class="pb-5">
-                    <h1 class="text-primary">EXPERIENCE THE</h1>
-                    <h1 class="display-4">LUXURY</h1>
-                    <a class="faq-btn btn btn-primary rounded-pill text-white py-3 px-5"
-                        href="{{ URL::to('downloadpdf') }}">DOWNLOAD BROUCHURE <i
-                            class="fas fa-arrow-right ms-2"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- FAQ End -->
+
 
 <!-- Services Start -->
 <div class="container-fluid service py-5">
@@ -269,25 +268,37 @@
             <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item bg-light rounded">
                     <div class="service-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'sagitiles.jpg' }}" class="img-fluid w-100 rounded"
+                        <img src="{{ URL::to('front') . "/img/" . 'saggitech.jpg' }}" class="img-fluid w-100 rounded"
                             alt="">
                     </div>
+                    <p>Saggitech</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item bg-light rounded">
                     <div class="service-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'mr hunk.jpg' }}" class="img-fluid w-100 rounded"
+                        <img src="{{ URL::to('front') . "/img/" . 'astrology.jpg' }}" class="img-fluid w-100 rounded"
                             alt="">
                     </div>
+                    <p>Debdutta digital</p>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="service-item bg-light rounded">
                     <div class="service-img">
-                        <img src="{{ URL::to('front') . "/img/" . 'building junction.jpg' }}"
+                        <img src="{{ URL::to('front') . "/img/" . 'NewsPrimenow.jpg' }}"
                             class="img-fluid w-100 rounded-top" alt="">
                     </div>
+                    <p>News Prime Now</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item bg-light rounded">
+                    <div class="service-img">
+                        <img src="{{ URL::to('front') . "/img/" . 'buildingjuncation.jpg' }}"
+                            class="img-fluid w-100 rounded-top" alt="">
+                    </div>
+                    <p>Building Junction</p>
                 </div>
             </div>
 
@@ -297,7 +308,7 @@
 <!-- Services End -->
 
 <!-- Testimonial Start -->
-<div class="container-fluid testimonial bg-light py-5">
+<!-- <div class="container-fluid testimonial bg-light py-5">
     <div class="container py-5">
         <div class="row g-4 align-items-center">
             <div class="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
@@ -345,7 +356,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Testimonial End -->
 
 <!-- Team Start -->
