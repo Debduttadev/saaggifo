@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Home;
 use App\Http\Requests\StoreHomeRequest;
 use App\Http\Requests\UpdateHomeRequest;
+use Ixudra\Curl\Facades\Curl;
 
 class HomeController extends Controller
 {
@@ -14,7 +15,50 @@ class HomeController extends Controller
     public function home()
     {
         //dd('this is home');
-        return view('front.home');
+        //@AchariyaDebdutta
+        $url1 = 'https://www.googleapis.com/youtube/v3/channels?part=snippet&part=statistics&id=UCqDfG4lWZ5OJgJSc2XK7g4A' . '&key=AIzaSyBUm1uVpuIGK2GudT_jFjagMWqnwZRojNI';
+
+        $response1 = Curl::to($url1)
+            ->get();
+        //dd($response);
+        $response1 = json_decode($response1);
+        $youtubechannelitems1 = $response1->items[0];
+        $youtubechanneldata1 = $youtubechannelitems1->snippet;
+        $youtubechanneldatasubscription1 = $youtubechannelitems1->statistics->subscriberCount;
+
+        //@TheDebduttaShow -
+        $url2 = 'https://www.googleapis.com/youtube/v3/channels?part=snippet&part=statistics&id=UCE6Wescg35pfTdUmOpJsYsQ' . '&key=AIzaSyBUm1uVpuIGK2GudT_jFjagMWqnwZRojNI';
+
+        $response2 = Curl::to($url2)
+            ->get();
+
+        //dd($response);
+        $response2 = json_decode($response2);
+        $youtubechannelitems2 = $response2->items[0];
+        $youtubechanneldata2 = $youtubechannelitems2->snippet;
+        $youtubechanneldatasubscription2 = $youtubechannelitems2->statistics->subscriberCount;
+
+        //@AstroAchariya -
+        $url3 = 'https://www.googleapis.com/youtube/v3/channels?part=snippet&part=statistics&id=UCHeZB0rv09RBnEySIfehLOA' . '&key=AIzaSyBUm1uVpuIGK2GudT_jFjagMWqnwZRojNI';
+
+        $response3 = Curl::to($url3)
+            ->get();
+
+        $response3 = json_decode($response3);
+        $youtubechannelitems3 = $response3->items[0];
+        $youtubechanneldata3 = $youtubechannelitems3->snippet;
+        $youtubechanneldatasubscription3 = $youtubechannelitems3->statistics->subscriberCount;
+
+        //dd($youtubechanneldata1);
+        return view('front.home', [
+            'youtubechanneldata1' => $youtubechanneldata1,
+            'youtubechanneldatasubscription1' => $youtubechanneldatasubscription1,
+            'youtubechanneldata2' => $youtubechanneldata2,
+            'youtubechanneldatasubscription2' => $youtubechanneldatasubscription2,
+            'youtubechanneldata3' => $youtubechanneldata3,
+            'youtubechanneldatasubscription3' => $youtubechanneldatasubscription3
+        ]);
+
     }
 
     public function aboutus()
@@ -88,8 +132,49 @@ class HomeController extends Controller
 
     public function debduttadigital()
     {
-        //dd('this is home');
-        return view('front.debdutta-digital');
+        //@AchariyaDebdutta
+        $url1 = 'https://www.googleapis.com/youtube/v3/channels?part=snippet&part=statistics&id=UCqDfG4lWZ5OJgJSc2XK7g4A' . '&key=AIzaSyBUm1uVpuIGK2GudT_jFjagMWqnwZRojNI';
+
+        $response1 = Curl::to($url1)
+            ->get();
+        //dd($response);
+        $response1 = json_decode($response1);
+        $youtubechannelitems1 = $response1->items[0];
+        $youtubechanneldata1 = $youtubechannelitems1->snippet;
+        $youtubechanneldatasubscription1 = $youtubechannelitems1->statistics->subscriberCount;
+
+        //@TheDebduttaShow -
+        $url2 = 'https://www.googleapis.com/youtube/v3/channels?part=snippet&part=statistics&id=UCE6Wescg35pfTdUmOpJsYsQ' . '&key=AIzaSyBUm1uVpuIGK2GudT_jFjagMWqnwZRojNI';
+
+        $response2 = Curl::to($url2)
+            ->get();
+
+        //dd($response);
+        $response2 = json_decode($response2);
+        $youtubechannelitems2 = $response2->items[0];
+        $youtubechanneldata2 = $youtubechannelitems2->snippet;
+        $youtubechanneldatasubscription2 = $youtubechannelitems2->statistics->subscriberCount;
+
+        //@AstroAchariya -
+        $url3 = 'https://www.googleapis.com/youtube/v3/channels?part=snippet&part=statistics&id=UCHeZB0rv09RBnEySIfehLOA' . '&key=AIzaSyBUm1uVpuIGK2GudT_jFjagMWqnwZRojNI';
+
+        $response3 = Curl::to($url3)
+            ->get();
+
+        $response3 = json_decode($response3);
+        $youtubechannelitems3 = $response3->items[0];
+        $youtubechanneldata3 = $youtubechannelitems3->snippet;
+        $youtubechanneldatasubscription3 = $youtubechannelitems3->statistics->subscriberCount;
+
+        //dd($youtubechanneldata1);
+        return view('front.debdutta-digital', [
+            'youtubechanneldata1' => $youtubechanneldata1,
+            'youtubechanneldatasubscription1' => $youtubechanneldatasubscription1,
+            'youtubechanneldata2' => $youtubechanneldata2,
+            'youtubechanneldatasubscription2' => $youtubechanneldatasubscription2,
+            'youtubechanneldata3' => $youtubechanneldata3,
+            'youtubechanneldatasubscription3' => $youtubechanneldatasubscription3
+        ]);
     }
 
     public function newsprimenow()

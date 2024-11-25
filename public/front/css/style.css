@@ -438,6 +438,39 @@
     padding: 60px 0 60px 0;
 }
 
+/*** Single Page Hero Header Start ***/
+.bg-breadcrumb1 {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 60px 0;
+}
+
+/*** Single Page Hero Header Start ***/
+.bg-breadcrumb2 {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 60px 0;
+}
+
+/*** Single Page Hero Header Start ***/
+.bg-breadcrumb3 {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 60px 0;
+}
+
 .bg-breadcrumb .breadcrumb-item a {
     color: var(--bs-white) !important;
 }
@@ -1101,4 +1134,18 @@ h1,
 
 .whowerimg {
     margin-top: -40px !important;
+}
+
+.achariyabutton {
+    background-color: #2d3536 !important;
+    color: #fff !important;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+a {
+    color: #787664 !important;
+    text-decoration: none;
 }

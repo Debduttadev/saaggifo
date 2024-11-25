@@ -54,7 +54,9 @@
                     secure, and
                     results-driven solutions for your business.</p>
                 <div class="row g-4 justify-content-between mb-5">
-                    <div class="col-xl-5">
+                    <div class="pt-4">
+                        <a class="btn btn-light rounded-pill py-3 px-5" href="{{ URL::to('saggitech') }}">Read
+                            More</a>
                     </div>
                 </div>
 
@@ -108,7 +110,9 @@
                     </li>
                 </ul>
                 <div class="row g-4 justify-content-between mb-5">
-                    <div class="col-xl-5">
+                    <div class="pt-4">
+                        <a class="btn btn-light rounded-pill py-3 px-5" href="{{ URL::to('debdutta-digital') }}">Read
+                            More</a>
                     </div>
                 </div>
 
@@ -123,7 +127,9 @@
                     content on current events, trends, and important stories. Our channel offers in-depth reporting,
                     interviews, and analysis to keep audiences informed and connected.</p>
                 <div class="row g-4 justify-content-between mb-5">
-                    <div class="col-xl-5">
+                    <div class="pt-4">
+                        <a class="btn btn-light rounded-pill py-3 px-5" href="{{ URL::to('news-prime-now') }}">Read
+                            More</a>
                     </div>
                 </div>
 
@@ -168,7 +174,9 @@
                 </p>
 
                 <div class="row g-4 justify-content-between mb-5">
-                    <div class="col-xl-5">
+                    <div class="pt-4">
+                        <a class="btn btn-light rounded-pill py-3 px-5" href="{{ URL::to('building-junction') }}">Read
+                            More</a>
                     </div>
                 </div>
 
