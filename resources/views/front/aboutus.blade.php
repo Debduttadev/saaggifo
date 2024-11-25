@@ -34,7 +34,7 @@
         </div>
         <div class="row g-5 align-items-center mb-5">
             <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
-                <h3>Software Development</h3>
+                <h3>Saggitech</h3>
                 <p class="text ps-4 mb-4">At Saggitech we specialize in creating tailored software solutions that help
                     businesses succeed inthe digital world. Our services include:</p>
 
@@ -76,7 +76,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
-                <h3>Social Media Infrastructure</h3>
+                <h3>Debdutta digital</h3>
                 <p class="text ps-4 mb-4"> At Debdutta digital Group we manage successful digital platforms like YouTube
                     and
                     Facebook while offering
@@ -150,7 +150,7 @@
             </div>
             <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
 
-                <h3>Interior Design & Material Supplier</h3>
+                <h3>Building junction</h3>
                 <p class="text ps-4 mb-4">At Building Junction we provide integrated solutions for interior design
                     and
                     material supply,
