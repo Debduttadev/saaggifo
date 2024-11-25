@@ -46,6 +46,8 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+//new web
+
 //pdf download
 Route::get('downloadpdf', [HomeController::class, 'downloadpdf'])->name('downloadpdf');
 
