@@ -34,8 +34,6 @@ Route::get('building-junction', [HomeController::class, 'buildingjunction'])->na
 
 Route::get('contact-us', [HomeController::class, 'contactus'])->name('contact-us');
 
-
-
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

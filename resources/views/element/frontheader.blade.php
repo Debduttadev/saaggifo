@@ -47,7 +47,6 @@
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar & Hero Start -->
     <div class="container-fluid sticky-top px-0">
         <div class="position-absolute bg-dark" style="left: 0; top: 0; width: 100%; height: 100%;">
